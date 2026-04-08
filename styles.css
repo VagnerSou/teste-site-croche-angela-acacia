@@ -170,14 +170,14 @@ body {
 /* 6. GRID DE PRODUTOS INTERNO */
 .galeria-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
 }
 
 .item-galeria {
     background: #fff;
     border: 1px solid #f0f0f0;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     text-align: center;
     transition: 0.3s;
@@ -188,8 +188,8 @@ body {
 }
 
 .item-galeria img {
-    width: 100%;
-    height: 300px;
+    width: 80%;
+    height: 200px;
     object-fit: cover;
     border-radius: 15px;
     margin-bottom: 15px;
